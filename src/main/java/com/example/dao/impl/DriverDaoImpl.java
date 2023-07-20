@@ -36,7 +36,7 @@ public class DriverDaoImpl implements DriverDao {
     @Override
     public void update(Driver entity) {
         Driver driver = em.merge(entity);
-        em.merge(driver);
+        em.persist(driver);
     }
 
     @Override

@@ -1,0 +1,7 @@
+Использовать:
+servlet
+daofactory
+сериализация с использованием Jackson библиотеки.
+
+Даны два домена Truck(id, model, modelYear) и Driver(id, firstName, lastName, age, qualification(Enum), List<Truck>).
+Создать OneToMany отношение, а также CRUD(findAll) операции.
